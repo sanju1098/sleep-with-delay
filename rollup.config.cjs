@@ -1,7 +1,7 @@
 const resolve = require("@rollup/plugin-node-resolve");
 const commonjs = require("@rollup/plugin-commonjs");
 const typescript = require("@rollup/plugin-typescript");
-const dts = require("rollup-plugin-dts").default; // Ensure correct usage of the default export
+const dts = require("rollup-plugin-dts").default;
 const terser = require("@rollup/plugin-terser");
 const peerDepsExternal = require("rollup-plugin-peer-deps-external");
 
